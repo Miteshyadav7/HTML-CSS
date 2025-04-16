@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOUSE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body background="house.jpg"  style="background-size: cover;background-repeat: no-repeat"; >
+    
+    <div class="bannner">
+<!-- <img src="house.jpg" alt="view"> -->
+
+
+<div class="navbar">
+    <img src="logo.png" class ="logo">
+    <ul>
+        <li><a href="website.html">Home</a></li>
+        <li><a href="bedroom.html">wall decor</a></li>
+        <li><a href="#">Dinning</a></li>
+        <li><a href="#">Kitchen</a></li>
+        <li><a href="#">Backyard</a></li>
+    </ul>
+</div>
+<div class="content">
+    <h1> DECOR YOUR HOME</h1>
+    <!-- <P> For make your home attractive and decorative press the icon, <br> for getting more updates </P> -->
+</div>
+<div class="buttoncontainer">
+    <button type ="button">WATCH MORE</button>
+    <button type ="button">VIDEO</button>
+</div>
+    </div>
+</body>
+</html>
