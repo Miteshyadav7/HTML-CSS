@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tinku's Café | Indore</title>
+  <link rel="stylesheet" href="imagestyle.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <h1>Tinku's Café</h1>
+      <p>Indore's Favorite Chill Spot ☕</p>
+      <a href="menu.html" class="btn">Explore Menu</a>
+      <a href="feedback.html" class="btn"> For Feedback</a>
+    </div>
+  </header>
+  <header>
+    <h1>Tinku’s Café – Menu</h1>
+    <p>Delicious picks for your perfect coffee break ☕</p>
+  </header>
+
+  <section class="menu-grid">
+    <div class="menu-card">
+      <img src="https://blogstudio.s3.theshoppad.net/coffeeheroau/ec178d83e5f597b162cda1e60cb64194.jpg" alt="Espresso" />
+      <h3>Espresso</h3>
+      <p>₹80</p>
+    </div>
+    <div class="menu-card">
+      <img src="https://images.hindustantimes.com/img/2021/11/27/550x309/Mocha_Cappuccio_1638022539649_1638022558271.jpg" alt="Cappuccino" />
+      <h3>Cappuccino</h3>
+      <p>₹120</p>
+    </div>
+    <div class="menu-card">
+      <img src="https://tvanamm.com/wp-content/uploads/2024/01/Cold-Coffee-768x730.jpg" alt="Cold Coffee" />
+      <h3>Cold Coffee</h3>
+      <p>₹150</p>
+    </div>
+    <div class="menu-card">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/9f/2f/c3/oreo-double-devil-shake.jpg" alt="Devil's Own Shake" />
+      <h3>Devil's Own Shake</h3>
+      <p>₹180</p>
+    </div>
+    <div class="menu-card">
+      <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2014/01/grilled-sandwich-2-1153x1536.jpg" alt="Grilled Sandwich" />
+      <h3>Grilled Sandwich</h3>
+      <p>₹130</p>
+    </div>
+    <div class="menu-card">
+      <img src="https://life-in-the-lofthouse.com/wp-content/uploads/2022/01/Easy-Molten-Chocolate-Lava-Cakes4.jpg" alt="Choco Lava Muffin" />
+      <h3>Choco Lava Muffin</h3>
+      <p>₹90</p>
+    </div>
+  </section>
+
+
+  <section id="menu" class="section">
+    <h2>Our Specialties</h2>
+    <ul class="menu-list">
+      <li>☕ Tinku’s Signature Cold Coffee</li>
+      <li>🍫 Devil's Own Chocolate Shake</li>
+      <li>🥪 Grilled Paneer Sandwich</li>
+      <li>🧁 Choco Lava Muffin</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Visit Us</h2>
+    <p>📍 Vijay Nagar, Indore<br>
+    📞 +91 98765 43210<br>
+    📧 tinkuscafe@coffee.com</p>
+  </section>
+
+  <footer>
+    <section id="about" class="section">
+    
+        <h2>About Us</h2>
+        <p>Welcome to Tinku’s Café – a cozy, vibrant hangout in the heart of Indore. Whether you're in for a quick espresso or an all-day conversation, we’ve got your vibe covered.</p>
+      </section>
+      
+    <p>&copy; 2025 Tinku's Café | Made with ❤️ in Indore</p>
+  </footer>
+</body>
+</html>
