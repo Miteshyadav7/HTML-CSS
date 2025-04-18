@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #fffdf9;
+    color: #333;
+  }
+  
+  .hero {
+    background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93'); /* free coffee image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e65c50;
+  }
+  
+  .section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4a4a4a;
+  }
+  
+  .menu-list {
+    list-style: none;
+    margin-top: 1rem;
+  }
+  
+  .menu-list li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+
+
+  
+

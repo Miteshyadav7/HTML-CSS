@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf6;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #a0522d;
+  }
+  
+  header p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .cart-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  .cart-card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .cart-info {
+    padding: 15px;
+    flex: 1;
+  }
+  
+  .cart-info h2 {
+    color: #8b4513;
+    margin-bottom: 10px;
+  }
+  
+  .cart-info p {
+    margin-bottom: 6px;
+    color: #555;
+  }
+  
+  .bill-summary {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  .bill-summary h3 {
+    color: #8b4513;
+    margin-bottom: 15px;
+  }
+  
+  .bill-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .total {
+    font-weight: bold;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .order-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #a0522d;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-btn:hover {
+    background-color: #86401f;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  

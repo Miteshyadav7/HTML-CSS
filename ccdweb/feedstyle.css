@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdf6f0;
+    color: #4b2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Home Page */
+  .home {
+    text-align: center;
+    background-color: #fff8f2;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    color: #6b3e26;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .feedback-button {
+    background-color: #a9745e;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .feedback-button:hover {
+    background-color: #8c5d4b;
+  }
+  
+  /* Feedback Page */
+  .feedback-page {
+    background-color: #fff8f2;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-page h2 {
+    text-align: center;
+    color: #6b3e26;
+    margin-bottom: 25px;
+  }
+  
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feedback-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .feedback-form input,
+  .feedback-form textarea {
+    padding: 10px;
+    border: 1px solid #d7ccc8;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+  }
+  
+  .feedback-form button {
+    margin-top: 20px;
+    background-color: #a9745e;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .feedback-form button:hover {
+    background-color: #8c5d4b;
+  }
+  
